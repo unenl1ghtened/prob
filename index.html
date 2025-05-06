@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Тестовое</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="body">
@@ -22,8 +24,7 @@
                       <svg
                         width="12"
                         height="12"
-                        viewBox="0 0 12 12"
-                        fill="none"
+                        viewBox="0 0 18 18"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <use href="/img/icons.svg#phone"></use>
@@ -32,9 +33,8 @@
                       <svg
                         class="arrow-svg"
                         width="8"
-                        height="6"
-                        viewBox="0 0 8 6"
-                        fill="none"
+                        height="8"
+                        viewBox="0 0 8 8"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <use href="/img/icons.svg#arrow"></use>
@@ -53,10 +53,9 @@
                   <div class="header__top-dropdown">
                     <button class="header__top-dropdown-btn" id="dropdownBtn">
                       <svg
-                        width="12"
+                        width="11"
                         height="14"
                         viewBox="0 0 12 14"
-                        fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <use href="/img/icons.svg#location"></use>
@@ -65,9 +64,8 @@
                       <svg
                         class="arrow-svg"
                         width="8"
-                        height="6"
-                        viewBox="0 0 8 6"
-                        fill="none"
+                        height="8"
+                        viewBox="0 0 8 8"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <use href="/img/icons.svg#arrow"></use>
@@ -86,10 +84,9 @@
                   <div class="header__top-dropdown">
                     <button class="header__top-dropdown-btn" id="dropdownBtn">
                       <svg
-                        width="12"
-                        height="12"
-                        viewBox="0 0 12 12"
-                        fill="none"
+                        width="15"
+                        height="15"
+                        viewBox="0 0 18 18"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <use href="/img/icons.svg#clock"></use>
@@ -98,9 +95,8 @@
                       <svg
                         class="arrow-svg"
                         width="8"
-                        height="6"
-                        viewBox="0 0 8 6"
-                        fill="none"
+                        height="8"
+                        viewBox="0 0 8 8"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <use href="/img/icons.svg#arrow"></use>
@@ -137,7 +133,7 @@
                   <svg
                     width="12"
                     height="12"
-                    viewBox="0 0 12 12"
+                    viewBox="0 0 18 18"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -164,7 +160,12 @@
                     </ul>
                   </nav>
                 </div>
-                <button class="header__bottom-btn">Aenean commodo</button>
+                <button
+                  class="header__bottom-btn"
+                  data-modal-target="contant__modal"
+                >
+                  Aenean commodo
+                </button>
                 <button class="burger-menu">
                   <span></span>
                 </button>
@@ -214,7 +215,7 @@
         </section>
         <section class="steps">
           <div class="container">
-            <h2 class="steps__title">Lorem ipsum</h2>
+            <h2 class="title">Lorem ipsum</h2>
             <ul class="steps__list">
               <li class="steps__item steps__item--accent">
                 <div class="steps__item-top">
@@ -261,6 +262,270 @@
             </ul>
           </div>
         </section>
+        <section class="features">
+          <div class="container">
+            <h2 class="title">Dolor sit amet</h2>
+            <div class="features__slider-cont">
+              <div class="swiper features__slider">
+                <div class="swiper-wrapper features__slider-wrapper">
+                  <div class="swiper-slide features__slider-slide">
+                    <div class="features__slider-slide-icon">
+                      <svg
+                        width="61"
+                        height="61"
+                        viewBox="0 0 61 61"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <use href="/img/icons.svg#protected"></use>
+                      </svg>
+                    </div>
+                    <h4 class="features__slider-slide-title">Lorem ipsum</h4>
+                    <p class="features__slider-slide-descr">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus.
+                    </p>
+                    <img
+                      class="features__slider-slide-decor"
+                      src="./img/features-decor.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide features__slider-slide">
+                    <div class="features__slider-slide-icon">
+                      <svg>
+                        <use href="./img/icons.svg#auction"></use>
+                      </svg>
+                    </div>
+                    <h4 class="features__slider-slide-title">Lorem ipsum</h4>
+                    <p class="features__slider-slide-descr">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus.
+                    </p>
+                  </div>
+                  <div class="swiper-slide features__slider-slide">
+                    <div class="features__slider-slide-icon">
+                      <svg
+                        width="61"
+                        height="61"
+                        viewBox="0 0 61 61"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <use href="./img/icons.svg#legal-document"></use>
+                      </svg>
+                    </div>
+                    <h4 class="features__slider-slide-title">Lorem ipsum</h4>
+                    <p class="features__slider-slide-descr">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus.
+                    </p>
+                    <img
+                      class="features__slider-slide-decor"
+                      src="./img/features-decor.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide features__slider-slide">
+                    <div class="features__slider-slide-icon">
+                      <svg
+                        width="61"
+                        height="61"
+                        viewBox="0 0 61 61"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <use href="./img/icons.svg#protected"></use>
+                      </svg>
+                    </div>
+                    <h4 class="features__slider-slide-title">Lorem ipsum</h4>
+                    <p class="features__slider-slide-descr">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus.
+                    </p>
+                    <img
+                      class="features__slider-slide-decor"
+                      src="./img/features-decor.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="features__slider-button features__slider-button--prev"
+              >
+                <svg
+                  width="27"
+                  height="16"
+                  viewBox="0 0 27 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="./img/icons.svg#slider-arrow"></use>
+                </svg>
+              </div>
+              <div
+                class="features__slider-button features__slider-button--next"
+              >
+                <svg
+                  width="27"
+                  height="16"
+                  viewBox="0 0 27 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="./img/icons.svg#slider-arrow"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="products">
+          <div class="container-2">
+            <h2 class="title">Donec sodales</h2>
+            <div class="swiper products__slider">
+              <div class="swiper-wrapper products__slider-wrapper">
+                <div class="swiper-slide products__slider-slide">
+                  <div class="products__slide-cont">
+                    <h4 class="products__slide-title">bibendum sodales</h4>
+                    <p class="products__slide-id">hendrerit id</p>
+                    <p class="products__slide-info">Curabitur ullamcorper</p>
+                    <ul class="products__slide-sizes">
+                      <li class="products__slide-sizes-item">46/48</li>
+                      <li class="products__slide-sizes-item">48/50</li>
+                      <li class="products__slide-sizes-item">50/52</li>
+                      <li class="products__slide-sizes-item">52/54</li>
+                    </ul>
+                    <div class="products__slide-btns">
+                      <button
+                        data-modal-target="contant__modal"
+                        class="products__slide-btn products__slide-btn--accent"
+                      >
+                        Etiam
+                      </button>
+                      <button
+                        class="products__slide-btn"
+                        data-modal-target="product-1"
+                      >
+                        rhoncus
+                      </button>
+                    </div>
+                    <span class="products__slide-price">997$</span>
+                  </div>
+                  <img
+                    class="products__slide-bg"
+                    src="./img/cursus-nunc.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide products__slider-slide">
+                  <div class="products__slide-cont">
+                    <h4 class="products__slide-title">augue velit</h4>
+                    <p class="products__slide-id">luctus pulvinar</p>
+                    <p class="products__slide-info">Curabitur ullamcorper</p>
+                    <ul class="products__slide-sizes">
+                      <li class="products__slide-sizes-item">46/48</li>
+                      <li class="products__slide-sizes-item">48/50</li>
+                      <li class="products__slide-sizes-item">50/52</li>
+                      <li class="products__slide-sizes-item">52/54</li>
+                    </ul>
+                    <div class="products__slide-btns">
+                      <button
+                        data-modal-target="contant__modal"
+                        class="products__slide-btn products__slide-btn--accent"
+                      >
+                        Etiam
+                      </button>
+                      <button
+                        class="products__slide-btn"
+                        data-modal-target="product-1"
+                      >
+                        rhoncus
+                      </button>
+                    </div>
+                    <span class="products__slide-price">997$</span>
+                  </div>
+                  <img
+                    class="products__slide-bg"
+                    src="./img/augue-velit.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide products__slider-slide">
+                  <div class="products__slide-cont">
+                    <h4 class="products__slide-title">bibendum sodales</h4>
+                    <p class="products__slide-id">hendrerit id</p>
+                    <p class="products__slide-info">Curabitur ullamcorper</p>
+                    <ul class="products__slide-sizes">
+                      <li class="products__slide-sizes-item">46/48</li>
+                      <li class="products__slide-sizes-item">48/50</li>
+                      <li class="products__slide-sizes-item">50/52</li>
+                      <li class="products__slide-sizes-item">52/54</li>
+                    </ul>
+                    <div class="products__slide-btns">
+                      <button
+                        data-modal-target="contant__modal"
+                        class="products__slide-btn products__slide-btn--accent"
+                      >
+                        Etiam
+                      </button>
+                      <button
+                        class="products__slide-btn"
+                        data-modal-target="product-1"
+                      >
+                        rhoncus
+                      </button>
+                    </div>
+                    <span class="products__slide-price">997$</span>
+                  </div>
+                  <img
+                    class="products__slide-bg"
+                    src="./img/bibendum-sodales.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide products__slider-slide">
+                  <div class="products__slide-cont">
+                    <h4 class="products__slide-title">bibendum sodales</h4>
+                    <p class="products__slide-id">hendrerit id</p>
+                    <p class="products__slide-info">Curabitur ullamcorper</p>
+                    <ul class="products__slide-sizes">
+                      <li class="products__slide-sizes-item">46/48</li>
+                      <li class="products__slide-sizes-item">48/50</li>
+                      <li class="products__slide-sizes-item">50/52</li>
+                      <li class="products__slide-sizes-item">52/54</li>
+                    </ul>
+                    <div class="products__slide-btns">
+                      <button
+                        data-modal-target="contant__modal"
+                        class="products__slide-btn products__slide-btn--accent"
+                      >
+                        Etiam
+                      </button>
+                      <button
+                        class="products__slide-btn"
+                        data-modal-target="product-1"
+                      >
+                        rhoncus
+                      </button>
+                    </div>
+                    <span class="products__slide-price">997$</span>
+                  </div>
+                  <img
+                    class="products__slide-bg"
+                    src="./img/bibendum-sodales.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <footer class="footer">
         <div class="container-2">
@@ -283,7 +548,7 @@
                 </a>
                 <a class="footer__socials-item">
                   <svg width="18" height="14" viewBox="0 0 18 14" fill="none">
-                    <use href="img/icons.svg#twitter"></use>
+                    <use href="/img/icons.svg#twitter"></use>
                   </svg>
                 </a>
                 <a class="footer__socials-item">
@@ -336,6 +601,189 @@
         </div>
       </footer>
     </div>
+    <div class="product__modal" id="product-1">
+      <div class="product__modal-overlay"></div>
+      <div class="product__modal-inner">
+        <div class="product__modal-slider-cont">
+          <div class="swiper product__modal-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide product__modal-slider-slide">
+                <img
+                  class="product__modal-slider-img"
+                  src="./img/modal-1-img.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide product__modal-slider-slide">
+                <img
+                  class="product__modal-slider-img"
+                  src="./img/modal-2-img.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide product__modal-slider-slide">
+                <img
+                  class="product__modal-slider-img"
+                  src="./img/modal-3-img.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="product__modal-slider-button product__modal-slider-button--prev"
+          >
+            <svg
+              id="modal-arrow"
+              width="10"
+              height="18"
+              viewBox="0 0 10 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use href="./img/icons.svg#modal-arrow"></use>
+            </svg>
+          </div>
+          <div
+            class="product__modal-slider-button product__modal-slider-button--next"
+          >
+            <svg
+              id="modal-arrow"
+              width="10"
+              height="18"
+              viewBox="0 0 10 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use href="./img/icons.svg#modal-arrow"></use>
+            </svg>
+          </div>
+          <div class="swiper-pagination product__modal-slider-pagination"></div>
+        </div>
+        <div class="product__modal-descr">
+          <h5 class="product__modal-title">Сursus nunc</h5>
+          <p class="product__modal-subtitle">blandit vel</p>
+          <p class="product__modal-text">
+            vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+            venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+            Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+            Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
+            consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
+            viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
+            varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies
+            nisi vel augue.
+          </p>
+          <div class="product__modal-points">
+            Donec vitae
+            <ul class="product__modal-list">
+              <li class="product__modal-item">
+                Maecenas nec odio et ante tincidunt tempus.
+              </li>
+              <li class="product__modal-item">
+                Donec vitae sapien ut libero venenatis faucibus. Nullam quis
+                ante.
+              </li>
+              <li class="product__modal-item">
+                Etiam sit amet orci eget eros faucibus tincidunt.
+              </li>
+              <li class="product__modal-item">
+                Donec sodales sagittis magna. Sed
+              </li>
+            </ul>
+          </div>
+          <p class="product__modal-sizes-title">Доступныые размеры</p>
+          <div class="product__modal-sizes-cont">
+            <ul class="product__modal-sizes">
+              <li class="product__modal-sizes-item products__slide-sizes-item">
+                <a href="#">46/48</a>
+              </li>
+              <li class="product__modal-sizes-item products__slide-sizes-item">
+                <a href="#">48/50</a>
+              </li>
+              <li class="product__modal-sizes-item products__slide-sizes-item">
+                <a href="#">50/52</a>
+              </li>
+              <li class="product__modal-sizes-item products__slide-sizes-item">
+                <a href="#">52/54</a>
+              </li>
+            </ul>
+            <div class="product__modal-quantity">
+              <span class="product__modal-quantity-label">Кол-во</span>
+              <div class="product__modal-quantity-counter">
+                <button class="quantity-decrease">-</button>
+                <span class="quantity-value">1</span>
+                <button class="quantity-increase">+</button>
+              </div>
+            </div>
+          </div>
+          <button
+            data-modal-target="contant__modal"
+            class="products__slide-btn products__slide-btn--accent"
+          >
+            Etiam
+          </button>
+        </div>
+        <svg
+          class="product__modal-close"
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+        >
+          <use href="./img/icons.svg#modal-close"></use>
+        </svg>
+      </div>
+    </div>
+    <div class="contant__modal">
+      <div class="contact__modal-overlay"></div>
+      <div class="contant__modal-inner">
+        <h6 class="contact__modal-title">Aenean massa</h6>
+        <p class="contact__modal-desc">
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+        </p>
+        <form class="contact__modal-form" action="#">
+          <div class="contact__modal-form-group">
+            <label for="name" class="contact__modal-form-title">Имя</label>
+            <input
+              id="name"
+              name="name"
+              class="contact__modal-form-input"
+              type="text"
+              placeholder="Ваше имя"
+              required
+            />
+          </div>
+          <div class="contact__modal-form-group">
+            <label for="phone" class="contact__modal-form-title"
+              >Номер телефона</label
+            >
+            <input
+              id="phone"
+              name="phone"
+              class="contact__modal-form-input"
+              type="tel"
+              placeholder="Номер телефона"
+              required
+            />
+          </div>
+          <p class="contact__modal-form-text">
+            Нажимая кнопку «Записаться», я даю свое согласие на обработку
+            персональных данных и принимаю условия
+            <a href="#">Пользовательского соглашения</a>.
+          </p>
+          <button class="contact__modal-form-btn" type="submit">Etiam</button>
+        </form>
+        <svg
+          class="contact__modal-close"
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+        >
+          <use href="./img/icons.svg#modal-close"></use>
+        </svg>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
