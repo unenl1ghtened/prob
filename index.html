@@ -20,7 +20,7 @@
               <ul class="header__top-list">
                 <li class="header__top-item">
                   <div class="header__top-dropdown">
-                    <button class="header__top-dropdown-btn" id="dropdownBtn">
+                    <button class="header__top-dropdown-btn">
                       <svg
                         width="12"
                         height="12"
@@ -40,10 +40,7 @@
                         <use href="/img/icons.svg#arrow"></use>
                       </svg>
                     </button>
-                    <div
-                      class="header__top-dropdown-content"
-                      id="dropdownContent"
-                    >
+                    <div class="header__top-dropdown-content">
                       <a href="tel:+78463004411">+7 (846) 300-44-11</a>
                       <a href="tel:+78482229041">+7 (848) 222-90-41</a>
                     </div>
@@ -51,7 +48,7 @@
                 </li>
                 <li class="header__top-item">
                   <div class="header__top-dropdown">
-                    <button class="header__top-dropdown-btn" id="dropdownBtn">
+                    <button class="header__top-dropdown-btn">
                       <svg
                         width="11"
                         height="14"
@@ -71,10 +68,7 @@
                         <use href="/img/icons.svg#arrow"></use>
                       </svg>
                     </button>
-                    <div
-                      class="header__top-dropdown-content"
-                      id="dropdownContent"
-                    >
+                    <div class="header__top-dropdown-content">
                       <a href="tel:+78463004411">+7 (846) 300-44-11</a>
                       <a href="tel:+78482229041">+7 (848) 222-90-41</a>
                     </div>
@@ -82,7 +76,7 @@
                 </li>
                 <li class="header__top-item">
                   <div class="header__top-dropdown">
-                    <button class="header__top-dropdown-btn" id="dropdownBtn">
+                    <button class="header__top-dropdown-btn">
                       <svg
                         width="15"
                         height="15"
@@ -102,10 +96,7 @@
                         <use href="/img/icons.svg#arrow"></use>
                       </svg>
                     </button>
-                    <div
-                      class="header__top-dropdown-content"
-                      id="dropdownContent"
-                    >
+                    <div class="header__top-dropdown-content">
                       <a href="tel:+78463004411">+7 (846) 300-44-11</a>
                       <a href="tel:+78482229041">+7 (848) 222-90-41</a>
                     </div>
@@ -186,7 +177,12 @@
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                   Aenean commodo <span>ligula eget dolor</span>
                 </p>
-                <button class="hero__inner-btn">Aenean commodo</button>
+                <button
+                  class="hero__inner-btn"
+                  data-modal-target="contant__modal"
+                >
+                  Aenean commodo
+                </button>
                 <p class="hero__inner-btn-text">
                   Оставьте заявку на бесплатную консультацию
                 </p>
@@ -585,7 +581,6 @@
                 src="https://yandex.ru/map-widget/v1/?um=constructor%3Aecedfbf7cab85f6dcecba321b18ea1b452d987633451ac9d81e5dde18cd0e5eb&amp;source=constructor"
                 width="378"
                 height="240"
-                frameborder="0"
               ></iframe>
             </li>
             <li class="footer__list-item">
@@ -634,7 +629,6 @@
             class="product__modal-slider-button product__modal-slider-button--prev"
           >
             <svg
-              id="modal-arrow"
               width="10"
               height="18"
               viewBox="0 0 10 18"
@@ -648,7 +642,6 @@
             class="product__modal-slider-button product__modal-slider-button--next"
           >
             <svg
-              id="modal-arrow"
               width="10"
               height="18"
               viewBox="0 0 10 18"
